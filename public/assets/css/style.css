@@ -1,0 +1,894 @@
+html, body {
+  background: url("../../images/background.png"); }
+
+.container {
+  background: white; }
+
+.height {
+  height: 60px; }
+
+.height2 {
+  height: 20px; }
+
+.margin {
+  margin: 0px; }
+
+.padding {
+  padding: 0px; }
+
+#boxs {
+  height: 410px; }
+  #boxs .test {
+    position: relative;
+    padding: 0px;
+    height: 100%; }
+  #boxs .full {
+    height: 100%;
+    width: 100%; }
+  #boxs .padding {
+    padding: 0; }
+  #boxs .boxImg {
+    margin-bottom: 5px; }
+    #boxs .boxImg img {
+      object-fit: cover; }
+  #boxs .boxDesc {
+    position: absolute;
+    bottom: 0px; }
+    #boxs .boxDesc button {
+      background: black;
+      color: white;
+      border: none;
+      font-weight: 600;
+      font-size: 10px;
+      padding: 0 7px 0 7px; }
+    #boxs .boxDesc button:hover {
+      background: #208574; }
+    #boxs .boxDesc h5 {
+      color: white;
+      font-size: 25px;
+      margin-right: 200px; }
+    #boxs .boxDesc p {
+      color: white;
+      font-size: 9px; }
+  #boxs .boxDesc2 {
+    position: absolute;
+    bottom: 0px; }
+    #boxs .boxDesc2 button {
+      background: black;
+      color: white;
+      border: none;
+      font-weight: 600;
+      font-size: 10px;
+      padding: 0 7px 0 7px; }
+    #boxs .boxDesc2 button:hover {
+      background: #208574; }
+    #boxs .boxDesc2 h5 {
+      color: white;
+      font-size: 12px; }
+    #boxs .boxDesc2 p {
+      color: white;
+      font-size: 9px; }
+  #boxs .boxImgHeight {
+    height: 200px; }
+  #boxs .boxPadLeft {
+    padding-left: 5px; }
+
+#worldNews {
+  min-height: 450px; }
+  #worldNews .row h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-left: -15px; }
+  #worldNews .row ul {
+    margin-top: 10px; }
+    #worldNews .row ul li {
+      list-style: none;
+      float: left;
+      margin-left: 5px; }
+      #worldNews .row ul li a {
+        text-decoration: none;
+        color: #777777; }
+      #worldNews .row ul li a:hover {
+        color: #6D7B9B; }
+  #worldNews a {
+    text-decoration: none;
+    text-transform: none; }
+    #worldNews a .worldImg {
+      width: 100%;
+      height: 100%; }
+    #worldNews a .worldDesc h5 {
+      font-size: 18px;
+      color: black;
+      font-weight: 400;
+      margin-left: 0px; }
+    #worldNews a .worldDesc h5:hover {
+      color: #6D7B9B; }
+    #worldNews a .worldDesc p {
+      font-size: 8px;
+      color: #aaaab1; }
+      #worldNews a .worldDesc p span {
+        color: black; }
+    #worldNews a .worldDesc h6 {
+      font-size: 11px;
+      color: #777777;
+      font-weight: 300; }
+  #worldNews a .worldDesc2 h6 {
+    color: black;
+    padding-left: 15px;
+    margin-top: 0px;
+    font-size: 13px; }
+  #worldNews a .worldDesc2 h6:hover {
+    color: #6D7B9B; }
+  #worldNews a .worldDesc2 p {
+    padding-left: 15px;
+    color: #9A9BB3;
+    font-size: 12px; }
+  #worldNews .social {
+    width: 97px;
+    height: 92px;
+    border: 1px solid #ededed; }
+    #worldNews .social i {
+      font-size: 28px;
+      font-weight: 600;
+      margin-top: 10px; }
+    #worldNews .social p {
+      font-size: 18px;
+      font-weight: 900;
+      margin-bottom: 0px;
+      color: black; }
+    #worldNews .social span {
+      font-weight: 400;
+      font-size: 15px;
+      color: black; }
+
+#TravelGuides {
+  min-height: 332px; }
+  #TravelGuides h5 {
+    font-size: 18px;
+    font-weight: 900; }
+  #TravelGuides .travelImg {
+    position: relative; }
+  #TravelGuides .travelBtn {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    color: white; }
+    #TravelGuides .travelBtn button {
+      background: black;
+      border: none; }
+      #TravelGuides .travelBtn button a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        font-size: 10px; }
+    #TravelGuides .travelBtn button:hover {
+      background: #5EB14C; }
+  #TravelGuides .travelTitle a {
+    text-decoration: none; }
+    #TravelGuides .travelTitle a h5 {
+      font-size: 15px;
+      margin-left: 0px;
+      font-weight: 500;
+      color: black; }
+    #TravelGuides .travelTitle a h5:hover {
+      color: #5EB14C; }
+  #TravelGuides .left_right {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #ededed;
+    background: white;
+    margin-left: 10px;
+    margin-top: 20px; }
+    #TravelGuides .left_right i {
+      opacity: 0.5; }
+  #TravelGuides .left_right:hover {
+    background: #5EB14C; }
+    #TravelGuides .left_right:hover i {
+      color: white; }
+  #TravelGuides #tech .techImg {
+    width: 324px;
+    height: 160px;
+    position: relative; }
+    #TravelGuides #tech .techImg .techBtn {
+      position: absolute;
+      bottom: 0px; }
+      #TravelGuides #tech .techImg .techBtn button {
+        background: black;
+        color: white;
+        font-weight: 600;
+        border: none;
+        font-size: 10px; }
+      #TravelGuides #tech .techImg .techBtn button:hover {
+        background: #2E38AD; }
+  #TravelGuides #tech .techDesc a {
+    text-decoration: none; }
+    #TravelGuides #tech .techDesc a h5 {
+      font-size: 20px;
+      color: black;
+      font-weight: 400; }
+    #TravelGuides #tech .techDesc a h5:hover {
+      color: #2E38AD; }
+    #TravelGuides #tech .techDesc a p {
+      font-size: 11px;
+      color: #b1b1b1; }
+      #TravelGuides #tech .techDesc a p span {
+        color: black; }
+    #TravelGuides #tech .techDesc a h6 {
+      color: #b1b1b1;
+      font-size: 13px;
+      margin-right: 60px; }
+  #TravelGuides #tech .techImg2 {
+    width: 100px;
+    height: 70px; }
+    #TravelGuides #tech .techImg2 img {
+      width: 100%;
+      height: 100%; }
+  #TravelGuides #tech .techDesc2 a {
+    text-decoration: none; }
+    #TravelGuides #tech .techDesc2 a h6 {
+      font-size: 14px;
+      font-weight: 500;
+      color: black; }
+    #TravelGuides #tech .techDesc2 a h6:hover {
+      color: #2E38AD; }
+  #TravelGuides #tech .techDesc2 p {
+    font-size: 11px;
+    color: #aaa; }
+  #TravelGuides #tech .left_right {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #ededed;
+    background: white;
+    margin-left: 10px;
+    margin-top: 20px; }
+    #TravelGuides #tech .left_right i {
+      opacity: 0.5; }
+  #TravelGuides #tech .left_right:hover {
+    background: #2E38AD; }
+    #TravelGuides #tech .left_right:hover i {
+      color: white; }
+    #TravelGuides #tech .left_right:hover .left_right:focus {
+      outline: none; }
+  #TravelGuides #health .healthImg {
+    width: 324px;
+    height: 160px;
+    position: relative; }
+    #TravelGuides #health .healthImg .healthBtn {
+      position: absolute;
+      bottom: 0px; }
+      #TravelGuides #health .healthImg .healthBtn button {
+        background: black;
+        color: white;
+        font-weight: 600;
+        font-size: 10px;
+        border: none; }
+      #TravelGuides #health .healthImg .healthBtn button:hover {
+        background: #DA0052; }
+  #TravelGuides #health .healthDesc a {
+    text-decoration: none; }
+    #TravelGuides #health .healthDesc a h5 {
+      font-size: 20px;
+      color: black;
+      font-weight: 400; }
+    #TravelGuides #health .healthDesc a h5:hover {
+      color: #DA0052; }
+    #TravelGuides #health .healthDesc a p {
+      font-size: 11px;
+      color: #b1b1b1; }
+      #TravelGuides #health .healthDesc a p span {
+        color: black; }
+    #TravelGuides #health .healthDesc a h6 {
+      color: #b1b1b1;
+      font-size: 13px;
+      margin-right: 60px; }
+  #TravelGuides #health .healthImg2 {
+    width: 100px;
+    height: 70px; }
+    #TravelGuides #health .healthImg2 img {
+      width: 100%;
+      height: 100%; }
+  #TravelGuides #health .healthDesc2 a {
+    text-decoration: none; }
+    #TravelGuides #health .healthDesc2 a h6 {
+      font-size: 14px;
+      font-weight: 500;
+      color: black; }
+    #TravelGuides #health .healthDesc2 a h6:hover {
+      color: #DA0052; }
+  #TravelGuides #health .healthDesc2 p {
+    font-size: 11px;
+    color: #aaa; }
+  #TravelGuides #health .left_right {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #ededed;
+    background: white;
+    margin-left: 10px;
+    margin-top: 20px; }
+    #TravelGuides #health .left_right i {
+      opacity: 0.5; }
+  #TravelGuides #health .left_right:hover {
+    background: #DA0052; }
+    #TravelGuides #health .left_right:hover i {
+      color: white; }
+  #TravelGuides #mostPopular .mostPopular .mostImg {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px; }
+    #TravelGuides #mostPopular .mostPopular .mostImg img {
+      width: 100%;
+      height: 100%; }
+  #TravelGuides #mostPopular .mostPopular .mostTitle a {
+    text-decoration: none; }
+    #TravelGuides #mostPopular .mostPopular .mostTitle a h5 {
+      font-size: 17px;
+      color: black;
+      font-weight: 400;
+      margin-left: 0px;
+      margin-top: 0px; }
+    #TravelGuides #mostPopular .mostPopular .mostTitle a h5:hover {
+      color: #218574; }
+  #TravelGuides #mostPopular .mostPopular .mostTitle button {
+    background: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 10px;
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  #TravelGuides #mostPopular .mostPopular .mostTitle button:hover {
+    background: #218574; }
+  #TravelGuides #mostPopular .mostPopular .mostTitle span {
+    font-size: 11px;
+    color: #aaa;
+    margin-left: 10px; }
+  #TravelGuides #mostPopular .left_right {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #ededed;
+    background: white;
+    margin-left: 27px;
+    margin-top: 20px; }
+    #TravelGuides #mostPopular .left_right i {
+      opacity: 0.5; }
+  #TravelGuides #mostPopular .left_right:hover {
+    background: #208574; }
+    #TravelGuides #mostPopular .left_right:hover i {
+      color: white; }
+
+#center {
+  min-height: 280px; }
+  #center .row a {
+    text-decoration: none; }
+    #center .row a h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: black; }
+    #center .row a h5:hover {
+      color: #5EB14C; }
+  #center .fashion .fashionImg {
+    width: 356px;
+    height: 220px;
+    position: relative;
+    overflow: hidden; }
+    #center .fashion .fashionImg img {
+      width: 100%;
+      height: 100%; }
+    #center .fashion .fashionImg img:hover {
+      width: 390px;
+      height: 260px;
+      transition: all 0.7s ease; }
+    #center .fashion .fashionImg .fashionDesc {
+      position: absolute;
+      bottom: 0px; }
+      #center .fashion .fashionImg .fashionDesc button {
+        background: red;
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: 10px; }
+      #center .fashion .fashionImg .fashionDesc .fashionTitle {
+        background: black;
+        opacity: 0.4;
+        width: 174%; }
+        #center .fashion .fashionImg .fashionDesc .fashionTitle a {
+          text-decoration: none; }
+          #center .fashion .fashionImg .fashionDesc .fashionTitle a h6 {
+            color: white;
+            font-weight: 500;
+            font-size: 16px;
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px; }
+
+#sports {
+  min-height: 980px; }
+  #sports .row h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px; }
+  #sports .row .sportsImg {
+    margin-top: 30px;
+    width: 218px;
+    height: 150px; }
+    #sports .row .sportsImg a {
+      text-decoration: none; }
+      #sports .row .sportsImg a img {
+        width: 100%;
+        height: 100%; }
+  #sports .row .sportsDesc {
+    margin-top: 30px; }
+    #sports .row .sportsDesc a {
+      text-decoration: none; }
+      #sports .row .sportsDesc a h5 {
+        font-size: 22px;
+        line-height: 28px;
+        color: black;
+        font-weight: 400; }
+      #sports .row .sportsDesc a h5:hover {
+        color: #66bb6a; }
+    #sports .row .sportsDesc button {
+      border: none;
+      background: black;
+      color: white;
+      font-weight: 600;
+      height: 18px;
+      font-size: 10px;
+      margin-left: 5px;
+      margin-right: 10px;
+      float: left; }
+    #sports .row .sportsDesc button:hover {
+      background: #66bb6a; }
+    #sports .row .sportsDesc p {
+      font-size: 11px;
+      color: #aaa; }
+      #sports .row .sportsDesc p span {
+        color: black; }
+    #sports .row .sportsDesc h6 {
+      font-size: 13px;
+      color: #aaa;
+      line-height: 21px;
+      font-weight: 400; }
+  #sports #recipes .row h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px; }
+  #sports #recipes .recipesImg {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 30px;
+    width: 324px;
+    height: 235px; }
+    #sports #recipes .recipesImg img {
+      width: 100%;
+      height: 100%; }
+    #sports #recipes .recipesImg .recipesBtn {
+      position: absolute;
+      bottom: 0px; }
+      #sports #recipes .recipesImg .recipesBtn button {
+        background: black;
+        color: white;
+        font-size: 10px;
+        font-weight: 600;
+        border: none; }
+      #sports #recipes .recipesImg .recipesBtn button:hover {
+        background: #DA0052; }
+  #sports #recipes .recipesDesc a {
+    text-decoration: none; }
+    #sports #recipes .recipesDesc a h5 {
+      font-size: 21px;
+      list-style: 25px;
+      color: black;
+      font-weight: 400;
+      margin-left: 16px; }
+    #sports #recipes .recipesDesc a h5:hover {
+      color: #DA0052; }
+  #sports #recipes .recipesDesc p {
+    color: #aaa;
+    font-size: 11px;
+    margin-left: 16px; }
+    #sports #recipes .recipesDesc p span {
+      color: black; }
+  #sports #recipes .recipesDesc h6 {
+    color: #777;
+    font-size: 13px;
+    line-height: 21px;
+    margin-left: 16px; }
+  #sports #recipes .recipesDesc h4 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    font-style: italic;
+    color: #DA0052;
+    margin-left: 16px; }
+  #sports #recipes .left_right {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #ededed;
+    background: white;
+    margin-left: 19px;
+    margin-top: 20px; }
+    #sports #recipes .left_right i {
+      opacity: 0.5; }
+  #sports #recipes .left_right:hover {
+    background: #DA0052; }
+    #sports #recipes .left_right:hover i {
+      color: white; }
+
+#watchNow {
+  min-height: 450px; }
+
+#latestArticles .row h5 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 17px; }
+#latestArticles .row .latestImg {
+  position: relative;
+  width: 324px;
+  height: 160px;
+  margin-top: 20px; }
+  #latestArticles .row .latestImg img {
+    width: 100%;
+    height: 100%; }
+  #latestArticles .row .latestImg .latestBtn {
+    position: absolute;
+    bottom: 0px; }
+    #latestArticles .row .latestImg .latestBtn button {
+      background: black;
+      font-size: 10px;
+      color: white;
+      font-weight: 600;
+      border: none; }
+    #latestArticles .row .latestImg .latestBtn button:hover {
+      background: #009688; }
+#latestArticles .row .latestDesc a {
+  text-decoration: none; }
+  #latestArticles .row .latestDesc a h5 {
+    color: black;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 400; }
+  #latestArticles .row .latestDesc a h5:hover {
+    color: #009688; }
+#latestArticles .row .latestDesc p {
+  color: #aaa;
+  font-size: 11px; }
+  #latestArticles .row .latestDesc p span {
+    color: black; }
+#latestArticles nav {
+  margin-left: 20px; }
+  #latestArticles nav a {
+    margin-right: 5px;
+    border: 1px solid #e3e3e3;
+    line-height: 21px;
+    font-size: 12px;
+    color: #444; }
+  #latestArticles nav a:hover {
+    background: #444;
+    color: white; }
+#latestArticles #mustRead a {
+  text-decoration: none; }
+  #latestArticles #mustRead a h5 {
+    color: black;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500; }
+  #latestArticles #mustRead a h5:hover {
+    color: #009688; }
+#latestArticles #mustRead .row button {
+  background: black;
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  float: left;
+  margin-right: 10px; }
+#latestArticles #mustRead .row button:hover {
+  background: #009688; }
+#latestArticles #mustRead .row p {
+  color: #aaa;
+  font-size: 11px; }
+  #latestArticles #mustRead .row p span {
+    color: black; }
+#latestArticles #categories {
+  margin-top: 40px; }
+  #latestArticles #categories .row ul {
+    list-style: none; }
+    #latestArticles #categories .row ul a {
+      text-decoration: none;
+      color: #111;
+      line-height: 30px;
+      font-size: 14px;
+      font-family: 'Open Sans',arial,sans-serif; }
+    #latestArticles #categories .row ul a:hover {
+      color: #009688; }
+
+html {
+  font-family: sans-serif; }
+
+.displayInline {
+  display: inline-block; }
+
+ul {
+  margin-bottom: 0; }
+
+.list-inline {
+  margin-left: 0; }
+
+#header .topHeader {
+  min-height: 32px;
+  background-color: #F9F9F9;
+  border-top: 4px solid #009688;
+  border-bottom: 1px solid #e9e9e9; }
+  #header .topHeader .topHeaderWeather {
+    margin-right: 32px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: 600; }
+  #header .topHeader .topHeaderNav a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 11px;
+    line-height: 27px; }
+  #header .topHeader .topHeaderNav a:hover {
+    color: #009688; }
+  #header .topHeader .topHeaderSocial {
+    padding-top: 3px;
+    padding-bottom: 2px; }
+    #header .topHeader .topHeaderSocial a {
+      text-decoration: none;
+      color: #2f2f2f; }
+    #header .topHeader .topHeaderSocial a:hover {
+      color: #009688; }
+#header .add {
+  background-color: white; }
+  #header .add ul li:first-child {
+    margin: 28px; }
+  #header .add ul li:last-child {
+    margin-top: 28px;
+    margin-bottom: 28px; }
+#header nav {
+  font-weight: 600;
+  border-radius: 0;
+  border-bottom: 5px solid #009688; }
+  #header nav a {
+    color: white; }
+
+#footer {
+  margin: 0; }
+  #footer .background {
+    min-height: 383px;
+    background: url("../../img/bg.png");
+    background-color: black; }
+  #footer ul {
+    margin-left: 131px;
+    margin-right: 131px; }
+    #footer ul li:first-child {
+      margin-top: 50px;
+      margin-bottom: 20px; }
+    #footer ul li:nth-child(2) {
+      color: white; }
+    #footer ul li:nth-child(3) {
+      margin-top: 21px;
+      margin-bottom: 21px;
+      color: white; }
+      #footer ul li:nth-child(3) a {
+        color: #009688;
+        text-decoration: none; }
+    #footer ul i {
+      color: white;
+      border: 1px solid #fff;
+      padding: 10px; }
+    #footer ul i:hover {
+      color: #009688; }
+  #footer .bottom {
+    min-height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 12px; }
+    #footer .bottom p {
+      margin-top: 11px;
+      margin-left: 50px; }
+    #footer .bottom ul {
+      margin: 0;
+      margin-top: 11px;
+      margin-right: 50px; }
+      #footer .bottom ul li {
+        margin: 0; }
+        #footer .bottom ul li a {
+          text-decoration: none;
+          color: white; }
+        #footer .bottom ul li a:hover {
+          color: #009688; }
+
+.container {
+  background-color: white; }
+
+.height {
+  height: 60px; }
+
+.margin {
+  margin: 0px; }
+
+#worldSingle .row h6 {
+  color: #c3c3c3;
+  font-size: 13px; }
+  #worldSingle .row h6 a {
+    text-decoration: none;
+    color: #c3c3c3; }
+#worldSingle .row h5 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px; }
+#worldSingle .row ul {
+  padding-left: 0px; }
+  #worldSingle .row ul li {
+    list-style: none;
+    float: left;
+    border: 1px solid #eaeaea;
+    margin-left: 5px; }
+    #worldSingle .row ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: 200;
+      padding: 3px 7px 4px 7px; }
+  #worldSingle .row ul li:hover {
+    background-color: #009688; }
+    #worldSingle .row ul li:hover a {
+      color: white; }
+#worldSingle .row .WorldSimg {
+  width: 543px;
+  height: 462px;
+  position: relative;
+  overflow: hidden; }
+  #worldSingle .row .WorldSimg a {
+    text-decoration: none; }
+    #worldSingle .row .WorldSimg a img {
+      width: 100%;
+      height: 100%;
+      transition: all 0.7s ease; }
+    #worldSingle .row .WorldSimg a .WorlSdesc {
+      position: absolute;
+      bottom: 0px;
+      padding-left: 20px;
+      padding-right: 50px; }
+      #worldSingle .row .WorldSimg a .WorlSdesc button {
+        background-color: black;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        border: none;
+        color: white; }
+      #worldSingle .row .WorldSimg a .WorlSdesc h5 {
+        color: white;
+        font-weight: 21;
+        font-size: 24px; }
+      #worldSingle .row .WorldSimg a .WorlSdesc p {
+        font-size: 11px;
+        color: white; }
+        #worldSingle .row .WorldSimg a .WorlSdesc p span {
+          text-transform: bold; }
+  #worldSingle .row .WorldSimg a:hover button {
+    background-color: #009688; }
+  #worldSingle .row .WorldSimg a:hover img {
+    transition: all 0.7s ease;
+    transform: scale(1.1); }
+#worldSingle #WorldHeader {
+  min-height: 1081px; }
+  #worldSingle #WorldHeader .row .WorldHeaderImg {
+    margin-top: 30px;
+    width: 218px;
+    height: 150px; }
+    #worldSingle #WorldHeader .row .WorldHeaderImg a {
+      text-decoration: none; }
+      #worldSingle #WorldHeader .row .WorldHeaderImg a img {
+        width: 100%;
+        height: 100%; }
+  #worldSingle #WorldHeader .row .WorldHeaderDesc {
+    margin-top: 30px; }
+    #worldSingle #WorldHeader .row .WorldHeaderDesc a {
+      text-decoration: none; }
+      #worldSingle #WorldHeader .row .WorldHeaderDesc a h5 {
+        font-size: 22px;
+        line-height: 28px;
+        color: black;
+        font-weight: 400; }
+      #worldSingle #WorldHeader .row .WorldHeaderDesc a h5:hover {
+        color: #66bb6a; }
+    #worldSingle #WorldHeader .row .WorldHeaderDesc button {
+      border: none;
+      background: black;
+      color: white;
+      font-weight: 600;
+      height: 18px;
+      font-size: 10px;
+      margin-left: 5px;
+      margin-right: 10px;
+      float: left; }
+    #worldSingle #WorldHeader .row .WorldHeaderDesc button:hover {
+      background: #66bb6a; }
+    #worldSingle #WorldHeader .row .WorldHeaderDesc p {
+      font-size: 11px;
+      color: #aaa; }
+      #worldSingle #WorldHeader .row .WorldHeaderDesc p span {
+        color: black; }
+    #worldSingle #WorldHeader .row .WorldHeaderDesc h6 {
+      font-size: 13px;
+      color: #aaa;
+      line-height: 21px;
+      font-weight: 400; }
+#worldSingle #stayConnected h5 {
+  font-size: 18px;
+  font-weight: bold; }
+#worldSingle #stayConnected .social {
+  width: 97px;
+  height: 92px;
+  border: 1px solid #ededed; }
+  #worldSingle #stayConnected .social a {
+    text-decoration: none; }
+    #worldSingle #stayConnected .social a i {
+      font-size: 28px;
+      font-weight: 600;
+      margin-top: 10px; }
+    #worldSingle #stayConnected .social a p {
+      font-size: 18px;
+      font-weight: 900;
+      margin-bottom: 0px;
+      color: black; }
+    #worldSingle #stayConnected .social a span {
+      font-weight: 400;
+      font-size: 15px;
+      color: black; }
+#worldSingle #latestArticle .row h5 {
+  font-size: 18px;
+  font-weight: bold; }
+#worldSingle #latestArticle .mostPopular .mostImg {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px; }
+  #worldSingle #latestArticle .mostPopular .mostImg img {
+    width: 100%;
+    height: 100%; }
+#worldSingle #latestArticle .mostPopular .mostTitle a {
+  text-decoration: none; }
+  #worldSingle #latestArticle .mostPopular .mostTitle a h5 {
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-top: 0px; }
+  #worldSingle #latestArticle .mostPopular .mostTitle a h5:hover {
+    color: #218574; }
+#worldSingle #latestArticle .mostPopular .mostTitle button {
+  background: black;
+  color: white;
+  font-weight: 600;
+  border: none;
+  font-size: 10px;
+  margin-left: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+#worldSingle #latestArticle .mostPopular .mostTitle button:hover {
+  background: #218574; }
+#worldSingle #latestArticle .mostPopular .mostTitle span {
+  font-size: 11px;
+  color: #aaa;
+  margin-left: 10px; }
+#worldSingle #latestArticle .left_right {
+  height: 25px;
+  width: 25px;
+  border: 2px solid #ededed;
+  background: white;
+  margin-left: 27px;
+  margin-top: 20px; }
+  #worldSingle #latestArticle .left_right i {
+    opacity: 0.5; }
+#worldSingle #latestArticle .left_right:hover {
+  background: #208574; }
+  #worldSingle #latestArticle .left_right:hover i {
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */

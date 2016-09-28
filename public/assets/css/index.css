@@ -1,0 +1,83 @@
+﻿body{
+	background-image: url(http://demo.tagdiv.com/newspaper_magazine/wp-content/uploads/2015/09/background.png);
+}
+.whiteBack{
+	background-color: white;
+}
+h1{
+	color: #111;
+	font-weight: 400;
+}
+.sekil{
+	width: 100%;
+	min-height: 460px;
+	margin-bottom: 26px;
+}
+.sekil_p{
+	font-family: Verdana,Geneva,sans-serif;
+	margin-bottom: 21px;
+	font-size: 15px;
+	line-height: 21px;
+	box-sizing: border-box;
+}
+.share{
+	border: 1px solid #ededed;
+}
+.share {
+	padding: 15px;
+}
+.share b{
+	margin: 0 5px;
+}
+.share_p {
+	border: 1px solid transparent;
+	padding: 5px;
+	margin: 0 20px;
+}
+.img_p{
+	border: 1px solid #ededed;
+}
+.img_p {
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.img_p img{
+	margin: 15px;
+}
+.box{
+	border: 1px solid #ededed;
+	color:#516eab; 
+	margin:15px 0;
+}
+.category{
+	border: 1px solid black;
+	background-color: black;
+	color: #ececec;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 11px;
+}
+.stay_p h4{
+	border-bottom: 1px solid #009688; 
+}
+.items{
+	display: flex;
+	justify-content: space-between;
+}
+.item{
+	min-width: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ededed;
+}
+.ads{
+	width:300px; 
+	height:250px;
+	padding: 15px;
+	margin: 35px;
+}
+.latest{
+	border-bottom: 1px solid #009688; 
+}

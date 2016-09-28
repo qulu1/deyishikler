@@ -1,0 +1,879 @@
+html,body{
+	background:url("../../images/background.png");
+}
+.container{
+	background: white;
+}
+.height{
+	height: 60px;
+}
+.height2{
+	height: 20px;
+}
+.margin{
+	margin:0px;
+}
+.padding{
+	padding: 0px;
+}
+// boxs sectionun bashlangici
+#boxs{
+	height: 410px;
+	.test{
+		position: relative;
+		padding: 0px;
+		height: 100%;
+	}
+	.full{
+		height: 100%;
+		width: 100%;
+	}
+	.padding{
+		padding: 0;
+	}
+	.boxImg{
+		// position: relative;
+		// padding-bottom: 10px;
+		margin-bottom: 5px;
+		
+		img{
+			object-fit:cover;
+		}
+	}
+	.boxDesc{
+		position: absolute;
+		bottom:0px;
+		button{
+			background: black;
+			color:white;
+			border:none;
+			// height: 15px;
+			font-weight: 600;
+			font-size: 10px;
+			padding: 0 7px 0 7px;
+		}button:hover{
+			background: #208574;
+		}			
+		h5{
+				color:white;
+				font-size: 25px;
+				margin-right: 200px;
+			}
+			p{
+				color:white;
+				font-size: 9px;
+			}
+		
+	}
+	.boxDesc2{
+		position: absolute;
+		bottom:0px;
+		button{
+			background: black;
+			color:white;
+			border:none;
+			// height: 15px;
+			font-weight: 600;
+			font-size: 10px;
+			padding: 0 7px 0 7px;
+		}button:hover{
+			background: #208574;
+		}			
+		h5{
+				color:white;
+				font-size: 12px;
+				// margin-right: 100px;
+			}
+			p{
+				color:white;
+				font-size: 9px;
+			}
+		
+	}
+	.boxImgHeight{
+		height: 200px;
+	}
+	.boxPadLeft{
+		padding-left: 5px;
+	}
+}
+//box sectionun sonu
+
+//worldnews sectionun bashlangiic
+#worldNews{
+	min-height: 450px;
+	.row{
+		h5{
+			font-size: 18px;
+			text-transform: uppercase;
+			font-weight: 900;
+			padding-left: -15px;
+		}
+		ul{
+			margin-top: 10px;
+			li{
+				list-style: none;
+				float: left;
+				margin-left: 5px;
+
+				a{
+					text-decoration: none;
+					color:#777777;
+					// font-size: 12px;
+				}a:hover{
+					color:#6D7B9B;
+				}
+			}
+		}
+	}
+	a{
+		text-decoration: none;
+		text-transform: none;
+		.worldImg{
+		width: 100%;
+		height: 100%;
+		}
+		.worldDesc{
+			h5{
+				font-size: 18px;
+				color:black;
+				font-weight: 400;
+				margin-left:0px;
+			}h5:hover{
+				color:#6D7B9B;
+			}
+			p{
+				font-size: 8px;
+				color:#aaaab1;
+				span{
+					color:black;
+				}
+			}
+			h6{
+				font-size: 11px;
+				color:#777777;
+				font-weight: 300;
+			}	
+		}
+	}
+	a{
+		.worldImg2{
+
+		}
+		.worldDesc2{
+			h6{
+				color:black;
+				padding-left: 15px;
+				margin-top: 0px;
+				font-size: 13px;
+			}h6:hover{
+				color:#6D7B9B;
+			}
+			p{
+				padding-left: 15px;
+				color:#9A9BB3;
+				font-size: 12px;
+			}
+		}
+	}
+	// a{
+	// 	text-transform: none;
+	
+	.social{
+		width: 97px;
+		height: 92px;
+		border:1px solid #ededed;
+			i{
+				font-size: 28px;
+				font-weight: 600;
+				margin-top: 10px;
+			}
+			p{
+				font-size: 18px;
+				font-weight: 900;
+				margin-bottom: 0px;
+				color:black;
+			}
+			span{
+				font-weight: 400;
+				font-size: 15px;
+				color:black;
+			}
+	}
+	// }
+}
+//worldNews sectionun sonu
+
+//TravelGuides sectionun bashlangici
+#TravelGuides{
+	min-height: 332px;
+	h5{
+		font-size: 18px;
+		// margin-left: 15px;
+		font-weight: 900;
+	}
+
+	// .travelBoxs{
+	// 	float: left;
+	// }
+	.travelImg{
+		position: relative;
+	}
+	.travelBtn{
+		bottom:0px;
+		left: 0px;
+		position: absolute;
+		color:white;
+		button{
+			background: black;
+			// height: 23px;
+			border:none;
+
+			a{
+				text-decoration: none;
+				color:white;
+				font-weight: 600;
+				font-size: 10px;
+				// padding: 0 7px 0 7px;
+				// line-height: 30px;
+			}
+		}button:hover{
+			background: #5EB14C;
+		}			
+	}
+	.travelTitle{
+
+		a{
+		text-decoration: none;
+		h5{
+			font-size: 15px;
+			margin-left: 0px;
+			font-weight: 500;
+			color:black;
+		}h5:hover{
+			color:#5EB14C;
+		}
+	}
+	}
+	.left_right{
+		height: 25px;
+		width: 25px;
+		border:2px solid #ededed;
+		background: white;
+		margin-left: 10px;
+		margin-top: 20px;
+		i{
+			opacity: 0.5;
+
+		}
+	}.left_right:hover{
+		background: #5EB14C;
+		i{
+			color:white;
+		}
+	}
+// tech sectionun bashlangici
+#tech{
+	.techImg{
+		width: 324px;
+		height: 160px;
+		position: relative;
+		.techBtn{
+		position: absolute;
+		bottom: 0px;
+		button{
+			background: black;
+			color:white;
+			font-weight: 600;
+			border:none;
+			font-size: 10px;
+			// height: 20px;
+		}button:hover{
+			background: #2E38AD;
+		}
+	}
+	}
+	.techDesc{
+		a{
+			text-decoration: none;
+			h5{
+				font-size: 20px;
+				color:black;
+				font-weight: 400;
+			}h5:hover{
+				color:#2E38AD;
+			}
+			p{
+				span{
+					color:black;
+					// font-weight: 400;
+				}
+			font-size: 11px;
+			color:#b1b1b1;
+			}
+			h6{
+				color:#b1b1b1;
+				font-size: 13px;
+				margin-right: 60px;
+			}
+		}
+	}
+	.techImg2{
+		width: 100px;
+		height: 70px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.techDesc2{
+		a{
+			text-decoration: none;
+			h6{
+				font-size: 14px;
+				font-weight: 500;
+				color:black;
+			}h6:hover{
+				color:#2E38AD;
+			}
+		}
+		p{
+			font-size: 11px;
+			color:#aaa;
+		}
+	}
+	.left_right{
+		height: 25px;
+		width: 25px;
+		border:2px solid #ededed;
+		background: white;
+		margin-left: 10px;
+		margin-top: 20px;
+		i{
+			opacity: 0.5;
+
+		}
+	}.left_right:hover{
+		background: #2E38AD;
+		i{
+			color:white;
+		}
+	.left_right:focus{
+		outline: none;
+	}
+}
+}
+// tech sectiounun sonu
+
+//health sectionun bashlangici
+#health{
+	.healthImg{
+		width: 324px;
+		height: 160px;
+		position: relative;
+		.healthBtn{
+		position: absolute;
+		bottom: 0px;
+		button{
+			background: black;
+			color:white;
+			font-weight: 600;
+			font-size: 10px;
+			border:none;
+			// height: 20px;
+		}button:hover{
+			background: #DA0052;
+		}
+	}
+	}
+	.healthDesc{
+		a{
+			text-decoration: none;
+			h5{
+				font-size: 20px;
+				color:black;
+				font-weight: 400;
+			}h5:hover{
+				color:#DA0052;			}
+			p{
+				span{
+					color:black;
+					// font-weight: 400;
+				}
+			font-size: 11px;
+			color:#b1b1b1;
+			}
+			h6{
+				color:#b1b1b1;
+				font-size: 13px;
+				margin-right: 60px;
+			}
+		}
+	}
+	.healthImg2{
+		width: 100px;
+		height: 70px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.healthDesc2{
+		a{
+			text-decoration: none;
+			h6{
+				font-size: 14px;
+				font-weight: 500;
+				color:black;
+			}h6:hover{
+				color:#DA0052;
+			}
+		}
+		p{
+			font-size: 11px;
+			color:#aaa;
+		}
+	}
+	.left_right{
+		height: 25px;
+		width: 25px;
+		border:2px solid #ededed;
+		background: white;
+		margin-left: 10px;
+		margin-top: 20px;
+		i{
+			opacity: 0.5;
+
+		}
+	}.left_right:hover{
+		background: #DA0052;
+		i{
+			color:white;
+		}
+}
+}
+//healt sectioun sonu
+
+// mostPopu;ar sectionun bashlangici
+#mostPopular{
+	.mostPopular{
+		.mostImg{
+			width: 100px;
+			height: 100px;
+			margin-left: 10px;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.mostTitle{
+			a{
+				text-decoration: none;
+				h5{
+					font-size: 17px;
+					color:black;
+					font-weight: 400;
+					margin-left: 0px;
+					margin-top: 0px;
+				}h5:hover{
+					color:#218574;
+				}
+			}
+			button{
+				background: black;
+				color:white;
+				font-weight: 600;
+				border:none;
+				font-size: 10px;
+				margin-left: 15px;
+				// height: 20px;
+				padding-top: 0px;
+				padding-bottom: 0px;
+			}button:hover{
+				background: #218574;
+			}
+			span{
+				font-size: 11px;
+				color:#aaa;
+				margin-left: 10px;
+			}
+		}
+	}
+		.left_right{
+		height: 25px;
+		width: 25px;
+		border:2px solid #ededed;
+		background: white;
+		margin-left: 27px;
+		margin-top: 20px;
+		i{
+			opacity: 0.5;
+
+		}
+	}.left_right:hover{
+		background: #208574;
+		i{
+			color:white;
+		}
+}
+}
+// mostPopular sectionun sonu
+}
+// TravelGuides sectionun sonu
+
+//center sectionun bashlangici
+#center{
+	min-height: 280px;
+	.row{
+		a{
+			text-decoration: none;
+			h5{
+				font-size: 18px;
+				font-weight: bold;
+				color:black;
+			}h5:hover{
+				color:#5EB14C;
+			}
+		}
+	}
+	.fashion{
+		.fashionImg{
+			width: 356px;
+			height: 220px;
+			position: relative;
+			overflow: hidden;
+			img{
+				width: 100%;
+				height: 100%;
+			}img:hover{
+				width: 390px;
+				height: 260px;
+				transition: all 0.7s ease;
+			}
+			.fashionDesc{
+				position: absolute;
+				bottom: 0px;
+				button{
+					background: red;
+					border:none;
+					color:white;
+					font-weight: 600;
+					// height: 18px;
+					font-size: 10px;
+					// padding-bottom: 20px;
+				}
+				.fashionTitle{
+					background: black;
+					opacity: 0.4;
+					width: 174%;
+					a{
+						text-decoration: none;
+						h6{
+							color:white;
+							font-weight: 500;
+							font-size: 16px;
+							// opacity: 1 !important;
+							margin: 0px;
+							padding-top: 15px;
+							padding-bottom: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+//center sectionun sonu
+
+// sports sectionun bashlangici
+#sports{
+	min-height: 980px;
+	.row{
+		h5{
+			font-size: 18px;
+			font-weight: 500;
+			margin-left: 5px;
+		}
+	}
+	.row{
+		.sportsImg{
+			margin-top: 30px;
+			width: 218px;
+			height: 150px;
+			a{
+				text-decoration: none;
+				img{
+				width: 100%;
+				height: 100%;
+			}
+			}
+		}
+		.sportsDesc{
+			margin-top: 30px;
+			a{
+				text-decoration: none;
+				h5{
+					font-size: 22px;
+					line-height: 28px;
+					color:black;
+					font-weight: 400;
+				}h5:hover{
+					color:#66bb6a;
+				}
+			}
+			button{
+				border:none;
+				background: black;
+				color:white;
+				font-weight: 600;
+				height: 18px;
+				font-size: 10px;
+				margin-left: 5px;
+				margin-right: 10px;
+				float:left;
+			}button:hover{
+				background: #66bb6a;
+			}
+			p{
+				font-size: 11px;
+				color:#aaa;
+				span{
+					color:black;
+				}
+			}
+			h6{
+				font-size: 13px;
+				color:#aaa;
+				line-height: 21px;
+				font-weight: 400;
+			}
+		}
+	}
+#recipes{
+	.row{
+		h5{
+			font-size: 18px;
+			font-weight: 500;
+			margin-left: 5px;
+
+		}
+	}
+	.recipesImg{
+		position: relative;
+		margin-left: 15px;
+		margin-top: 30px;
+		width: 324px;
+		height: 235px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		.recipesBtn{
+			position: absolute;
+			bottom: 0px;
+			button{
+				background: black;
+				color:white;
+				font-size: 10px;
+				font-weight: 600;
+				border:none;
+			}button:hover{
+				background: #DA0052;
+			}
+		}
+	}
+	.recipesDesc{
+
+		a{
+			text-decoration: none;
+			h5{
+				font-size: 21px;
+				list-style: 25px;
+				color:black;
+				font-weight: 400;
+				margin-left: 16px;
+			}h5:hover{
+				color:#DA0052;
+			}
+		}
+			p{
+				color:#aaa;
+				font-size: 11px;
+				margin-left: 16px;
+				span{
+					color:black;
+				}
+			}
+			h6{
+				color:#777;
+				font-size: 13px;
+				line-height: 21px;
+				margin-left: 16px;
+			}
+			h4{
+				font-size: 30px;
+				line-height: 35px;
+				font-weight: 400;
+				font-style: italic;
+				color:#DA0052;
+				margin-left: 16px;
+			}
+		
+	}
+		.left_right{
+		height: 25px;
+		width: 25px;
+		border:2px solid #ededed;
+		background: white;
+		margin-left: 19px;
+		margin-top: 20px;
+		i{
+			opacity: 0.5;
+
+		}
+	}.left_right:hover{
+		background: #DA0052;
+		i{
+			color:white;
+		}
+}
+}
+}
+// sports sectionun sonu
+
+//watvh now sectionun bashlangici
+#watchNow{
+	min-height: 450px;
+
+}
+//watch now sectionun sonu
+
+//latest articles sectionun bashlangici
+#latestArticles{
+	.row{
+		h5{
+			font-size: 18px;
+			font-weight: bold;
+			line-height: 17px;
+		}
+	}
+	.row{
+		.latestImg{
+			position: relative;
+			width: 324px;
+			height: 160px;
+			margin-top: 20px;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+			.latestBtn{
+				position: absolute;
+				bottom:0px;
+				button{
+					background: black;
+					font-size: 10px;
+					color:white;
+					font-weight: 600;
+					border:none;
+				}button:hover{
+					background: #009688;
+				}
+			}
+		}
+		.latestDesc{
+			a{
+				text-decoration: none;
+				h5{
+					color:black;
+					font-size: 21px;
+					line-height: 25px;
+					font-weight: 400;
+				}h5:hover{
+					color:#009688;
+				}
+			}
+			p{
+				color:#aaa;
+				font-size: 11px;
+				span{
+					color:black;
+				}
+			}
+		}
+	}
+	nav{
+		margin-left: 20px;
+		a{
+			margin-right: 5px;
+			border: 1px solid #e3e3e3;
+			line-height: 21px;
+			font-size: 12px;
+			color:#444;
+
+		}a:hover{
+			background: #444;
+			color:white;
+		}
+	}
+
+	#mustRead{
+		a{
+			text-decoration: none;
+			h5{
+				color:black;
+				font-size: 17px;
+				line-height: 24px;
+				font-weight: 500;
+			}h5:hover{
+				color:#009688;
+			}
+		}
+	.row{
+		button{
+			background: black;
+			font-size: 10px;
+			color:white;
+			font-weight: 600;
+			border:none;
+			float: left;
+			margin-right: 10px;
+		}button:hover{
+			background: #009688;
+		}
+		p{
+			color:#aaa;
+			font-size: 11px;
+
+			span{
+				color:black;
+			}
+		}
+	}
+	}
+	#categories{
+		margin-top:40px;
+		.row{
+			ul{
+				list-style: none;
+				a{
+					text-decoration: none;
+					color:#111;
+					line-height: 30px;
+					font-size: 14px;
+					font-family: 'Open Sans',arial,sans-serif;
+					li{
+						
+						
+					}
+				}a:hover{
+					color:#009688;
+				}
+			}
+		}
+	}
+}
+//latest sectionun sonu
+
+
+

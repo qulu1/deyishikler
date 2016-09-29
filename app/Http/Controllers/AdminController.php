@@ -48,8 +48,8 @@ class AdminController extends Controller
     }
     
     public function edit(Xeber $xeber){
-
-        return view("admin.edit",compact('xeber'));
+         $data = Category::all();
+        return view("admin.edit",compact('xeber','data'));
 
     }
 
@@ -59,7 +59,7 @@ class AdminController extends Controller
 
         $xeber->news_title = $request->title;
         $xeber->news_text = $request->text;
-        $xeber->category_id = 1;
+        $xeber->category_id = $request->cat;
         $xeber->user_id = 2;
 
         $xeber->save();

@@ -29,16 +29,17 @@
 		            <input class="form-control" type="title" name="title" value=" {{ $xeber->news_title }} ">
 		            <!-- <textarea name="title" class="ckeditor"></textarea><br> -->
 		        <label class="form-control-label">Text</label>
-		        	<textarea name="text" class="ckeditor"> {{ $xeber->news_text }} </textarea><br>
+		        	<textarea rows="10" cols="150" maxlength="150" name="text" class="ckeditor"> {{ $xeber->news_text }} </textarea><br>
 		        <label class="form-control-label">Image</label>
 		            <input type="file" name="img" class="btn btn-primary"><br>
 		        <label class="form-control-label">Category</label>
-		        	<div class="dropdown">
-						<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-						    Cotegory
-						    <span class="caret"></span>
-						</button>
-					</div><br>
+					<select class="form-control" name="cat">
+						<option>Categories</option>
+							@foreach($data as $category )
+								<option value=" {{ $category->id }}"> {{ $category->category_name }}</option>
+							@endforeach
+
+					</select>
 		        <input class="btn btn-success" type="submit" name="submit" value="Edit">
 			</form>
 		</div>

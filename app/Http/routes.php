@@ -29,6 +29,12 @@ Route::get('create', "AdminController@index");
 
 Route::post('/create',"AdminController@create");
 
+Route::get('admin',"AdminController@admin");
+
+// Route::get('add_cat', "AdminController@add_cats");
+
+// Route::post('/add_cat',"AdminController@create_category");
+
 Route::get('/show',"AdminController@show");
 
 Route::get('/xeber/{xeber}/edit', "AdminController@edit");

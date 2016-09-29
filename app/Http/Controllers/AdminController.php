@@ -25,6 +25,10 @@ class AdminController extends Controller
 	
 	}
 
+    public function admin(){
+        return view('admin.admin');
+    }
+
     public function create(Request $reg){
     	
     	$new = new Xeber;
@@ -32,6 +36,11 @@ class AdminController extends Controller
     	$new->news_text = $reg->text;
     	$new->category_id = $reg->cat;
     	$new->user_id = 2;
+        if($reg->hasFile('img')){
+
+            $name = time().".".$reg->file("img")->extension();
+            $reg->file("img")->move(public_path().'/images',$name);
+        };
 
     	$new->save();
 
@@ -49,7 +58,9 @@ class AdminController extends Controller
     
     public function edit(Xeber $xeber){
 
-        return view("admin.edit",compact('xeber'));
+        $data = Category::all();
+
+        return view("admin.edit",compact('xeber','data'));
 
     }
 
@@ -59,13 +70,13 @@ class AdminController extends Controller
 
         $xeber->news_title = $request->title;
         $xeber->news_text = $request->text;
-        $xeber->category_id = 1;
+        $xeber->category_id = $request->cat;
         $xeber->user_id = 2;
 
         $xeber->save();
 
         return redirect('/show');
-}
+    }
 
     public function destroy($id){
 
@@ -76,9 +87,5 @@ class AdminController extends Controller
 
         return redirect('/show');
     }
-
-
-
-    
 
 }

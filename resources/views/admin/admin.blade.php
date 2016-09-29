@@ -30,7 +30,7 @@
 				   		<td>Cotegories</td>
 				   		<td>
 				   			<a href="#"><button class="btn btn-primary">View</button></a>
-							<form action="" method="POST" enctype="multipart/form-data">
+							<form action="/admin" method="POST">
 								{{csrf_field()}}
 								<input type="text" name="add_category">
 				   				<button class="btn btn-success">Add Category</button>

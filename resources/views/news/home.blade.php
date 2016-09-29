@@ -638,27 +638,29 @@
 								<div class="row margin" style="border-bottom:2px solid #66bb6a;">
 									<h5>SPORTS NEWS</h5>
 								</div>
-								<div class="row">
-									<div class="col-md-4 col-xs-4">
-										<div class="sportsImg">
-											<a href="#">
-												<img src="images/img26.jpg">
-											</a>
+								@foreach($xeber as $news)
+									<div class="row">
+										<div class="col-md-4 col-xs-4">
+											<div class="sportsImg">
+												<a href="#">
+													<img src="images/img26.jpg">
+												</a>
+											</div>
+										</div>
+										<div class="col-md-8 col-xs-8 padding">
+											<div class="sportsDesc">
+												<a href="#">
+													<h5> {{ $news->news_title }} </h5>
+												</a>
+												{{-- <button> {{ $news->category->category_name }} </button>  --}}
+												<p><span>{{ $news->user->name}}</span>-  September 23, 2015</p>
+												<h6> {{ substr(($news->news_text),0,250) }}) </h6>
+											</div>
 										</div>
 									</div>
-									<div class="col-md-8 col-xs-8 padding">
-										<div class="sportsDesc">
-											<a href="#">
-												<h5>Man United skipper again boosted for first England goal after win</h5>
-											</a>
-											<button>Sport</button> 
-											<p><span>David Lee</span>-  September 23, 2015</p>
-											<h6>All right. Well, take care yourself. I guess that's what you're best, presence old master? A tremor in the Force. The last time felt...</h6>
+								@endforeach	
 
-										</div>
-									</div>
-								</div>
-								<div class="row">
+								{{-- <div class="row">
 									<div class="col-md-4 col-xs-4">
 										<div class="sportsImg">
 											<a href="#">
@@ -733,7 +735,7 @@
 											<h6>All right. Well, take care yourself. I guess that's what you're best, presence old master? A tremor in the Force. The last time felt...</h6>
 										</div>
 									</div>
-								</div>
+								</div> --}}
 							</div>
 							<div class="col-md-4 col-xs-12">
 								<!-- recipes sectiounun bashlangici -->

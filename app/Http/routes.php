@@ -31,6 +31,9 @@ Route::post('/create',"AdminController@create");
 
 Route::get('admin',"AdminController@admin");
 
+Route::post('/admin',"AdminController@categoryadd");
+
+
 // Route::get('add_cat', "AdminController@add_cats");
 
 // Route::post('/add_cat',"AdminController@create_category");

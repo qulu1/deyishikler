@@ -40,15 +40,10 @@
 						    			{{csrf_field()}}
 						    			<button class="btn btn-danger">Delete</button>
 						    		</form>
-						    		
 					    		</td>
 					    	</tr>
 					    @endforeach
  					</tbody>
-					
-					
-				
-
   				</table>
   				<a href="/create"><button class="btn btn-success">CREATE</button></a>
 		  	</div>

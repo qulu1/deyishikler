@@ -12,6 +12,9 @@ use App\User;
 
 use App\Role;
 
+use App\Category;
+
+
 
 
 
@@ -24,7 +27,9 @@ class NewsController extends Controller
 {
     public function home(){
 
-    	return view("news.home");
+        $xeber = Xeber::take(5)->get();
+        // $xeber = Xeber::orderBy('id', 'DESC')->lists('news_title');
+    	return view("news.home" ,compact('xeber'));
 
     }
     public function single(){

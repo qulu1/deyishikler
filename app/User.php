@@ -31,4 +31,10 @@ class User extends Authenticatable
 
     }
 
+    public function xeber(){
+
+        return $this->hasMany(Xeber::class);
+
+    }
+
 }

@@ -30,13 +30,12 @@
 					    		<td>{{ $xeberler->id}}</td>
 					    		<td>{{ $xeberler->news_title}}</td>
 					    		<td>{{ $xeberler->news_text}}</td>
-					    		<td> {{ $xeberler->category_id }} </td>
-								<td> {{ $xeberler->user_id }} </td>								 
+					    		<td> {{ $xeberler->category->category_name }} </td>
+								<td> {{ $xeberler->user->name }} </td>								 
 					    		<td> {{ $xeberler->created_at }} </td>
 					    		<td>
-						    		<a href="#"><button class="btn btn-primary">View</button></a>
-						    		<a href="#"><button class="btn btn-success">Edit</button></a>
-						    		<form action="{{ url('/admin/'.$xeberler->id)}}" method="post">
+						    		<a href="/xeber/{{$xeberler->id}}/edit"><button class="btn btn-success">Edit</button></a>
+						    		<form action="xeber/{{ $xeberler->id }}/delete" method="post">
 						    			{{method_field('DELETE')}}
 						    			{{csrf_field()}}
 						    			<button class="btn btn-danger">Delete</button>
@@ -48,7 +47,10 @@
  					</tbody>
 					
 					
+				
+
   				</table>
+  				<a href="/create"><button class="btn btn-success">CREATE</button></a>
 		  	</div>
 		</div>
 	</div>

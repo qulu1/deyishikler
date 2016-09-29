@@ -31,5 +31,11 @@ Route::post('/create',"AdminController@create");
 
 Route::get('/show',"AdminController@show");
 
-Route::delete('/delete/{id}',"AdminController@destroy");
+Route::get('/xeber/{xeber}/edit', "AdminController@edit");
+
+Route::patch('/xeber/{xeber}', "AdminController@update");
+
+Route::delete('/xeber/{xeber}/delete', "AdminController@destroy");
+
+
 

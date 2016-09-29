@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Create</title>
+	<title>EDIT</title>
 	<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -33,12 +33,19 @@
 		        <label class="form-control-label">Image</label>
 		            <input type="file" name="img" class="btn btn-primary"><br>
 		        <label class="form-control-label">Category</label>
+<<<<<<< HEAD
 					<select class="form-control" name="cat">
+=======
+		        	<select class="form-control" name="cat">
+>>>>>>> 1a5f871e7d8a60044656fe268c9c30d7ea826c80
 						<option>Categories</option>
 							@foreach($data as $category )
 								<option value=" {{ $category->id }}"> {{ $category->category_name }}</option>
 							@endforeach
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1a5f871e7d8a60044656fe268c9c30d7ea826c80
 					</select>
 		        <input class="btn btn-success" type="submit" name="submit" value="Edit">
 			</form>

@@ -32,7 +32,6 @@
 							@foreach($data as $category )
 								<option value=" {{ $category->id }}"> {{ $category->category_name }}</option>
 							@endforeach
-
 					</select>
 		        <input class="btn btn-success" type="submit" name="submit" value="Create">
 			</form>

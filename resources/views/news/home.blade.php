@@ -652,7 +652,7 @@
 												<a href="#">
 													<h5> {{ $news->news_title }} </h5>
 												</a>
-												{{-- <button> {{ $news->category->category_name }} </button>  --}}
+												<button>{{$news->category->category_name}}  </button> 
 												<p><span>{{ $news->user->name}}</span>-  September 23, 2015</p>
 												<h6> {{ substr(($news->news_text),0,250) }}) </h6>
 											</div>
